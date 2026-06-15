@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthLens - Module 9 Quiz</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <span class="logo-icon">🔍</span>
+                <span class="logo-text">TruthLens</span>
+            </div>
+            <button class="sidebar-toggle" id="sidebarToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2>Module 9 Quiz</h2>
+                <p class="course-duration">Assessment</p>
+            </div>
+
+            <div class="quiz-info">
+                <h3>Quiz Information</h3>
+                <ul>
+                    <li>Total Questions: <strong id="totalQuestions">0</strong></li>
+                    <li>Time Limit: <strong>30 minutes</strong></li>
+                    <li>Passing Score: <strong>70%</strong></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-footer">
+                <p><strong>Instructions:</strong> Answer all questions carefully. You can review your answers before submitting.</p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content" id="mainContent">
+            <!-- Progress Bar -->
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+
+            <!-- Quiz Header -->
+            <header class="lesson-header">
+                <div class="breadcrumb">
+                    <span><a href="../modules/module9.html">Module 9</a></span>
+                    <span class="separator">/</span>
+                    <span>Quiz</span>
+                </div>
+                <h1>Module 9 Assessment Quiz</h1>
+                <p class="quiz-description">Test your knowledge from Module 9. This quiz consists of multiple-choice questions.</p>
+            </header>
+
+            <!-- Quiz Container -->
+            <div class="quiz-container" id="quizContainer">
+                <!-- Quiz Questions go here -->
+                <form id="quizForm">
+                    <!-- ADD YOUR QUIZ QUESTIONS HERE -->
+                    <div class="quiz-question-block">
+                        <div class="question-number">Question 1</div>
+                        <p class="question-text">
+                            <!-- Your question text goes here -->
+                        </p>
+                        <div class="quiz-options">
+                            <label class="quiz-option">
+                                <input type="radio" name="q1" value="a">
+                                <span>Option A</span>
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q1" value="b">
+                                <span>Option B</span>
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q1" value="c">
+                                <span>Option C</span>
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q1" value="d">
+                                <span>Option D</span>
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Quiz Actions -->
+            <div class="quiz-actions">
+                <button class="btn btn-secondary" onclick="resetQuiz()">Reset Quiz</button>
+                <button class="btn btn-primary" onclick="submitQuiz()">Submit Quiz</button>
+            </div>
+
+            <!-- Results Section (Hidden initially) -->
+            <div id="resultsSection" class="results-section" style="display: none;">
+                <h2>Quiz Results</h2>
+                <div class="score-display">
+                    <p>Your Score: <strong id="finalScore">0</strong>%</p>
+                    <p>Questions Correct: <strong id="correctAnswers">0</strong>/<strong id="totalQuestionsResult">0</strong></p>
+                </div>
+                <div id="resultMessage" class="result-message"></div>
+                <a href="../modules/module9.html" class="btn btn-primary">Back to Module</a>
+            </div>
+        </main>
+    </div>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/quiz.js"></script>
+</body>
+</html>
