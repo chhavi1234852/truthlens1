@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthLens - Lesson: Understanding Deepfakes</title>
+    <link rel="stylesheet" href="lesson-styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <span class="logo-icon">🔍</span>
+                <span class="logo-text">TruthLens</span>
+            </div>
+            <button class="sidebar-toggle" id="sidebarToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2>Foundations of Deepfakes</h2>
+                <p class="course-duration">4 weeks</p>
+            </div>
+
+            <div class="lessons-list">
+                <!-- Module 1 -->
+                <div class="lesson-module">
+                    <h3 class="module-title">Module 1: Introduction</h3>
+                    <div class="lessons">
+                        <a href="#lesson1" class="lesson-item active" data-lesson="1">
+                            <span class="lesson-number">1.1</span>
+                            <span class="lesson-name">What are Deepfakes?</span>
+                            <span class="lesson-status completed">✓</span>
+                        </a>
+                        <a href="#lesson2" class="lesson-item" data-lesson="2">
+                            <span class="lesson-number">1.2</span>
+                            <span class="lesson-name">History of Deepfakes</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                        <a href="#lesson3" class="lesson-item" data-lesson="3">
+                            <span class="lesson-number">1.3</span>
+                            <span class="lesson-name">Technology Behind It</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Module 2 -->
+                <div class="lesson-module">
+                    <h3 class="module-title">Module 2: Detection Basics</h3>
+                    <div class="lessons">
+                        <a href="#lesson4" class="lesson-item" data-lesson="4">
+                            <span class="lesson-number">2.1</span>
+                            <span class="lesson-name">Visual Artifacts</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                        <a href="#lesson5" class="lesson-item" data-lesson="5">
+                            <span class="lesson-number">2.2</span>
+                            <span class="lesson-name">Audio Inconsistencies</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                        <a href="#lesson6" class="lesson-item" data-lesson="6">
+                            <span class="lesson-number">2.3</span>
+                            <span class="lesson-name">Behavioral Clues</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Module 3 -->
+                <div class="lesson-module">
+                    <h3 class="module-title">Module 3: Advanced Techniques</h3>
+                    <div class="lessons">
+                        <a href="#lesson7" class="lesson-item" data-lesson="7">
+                            <span class="lesson-number">3.1</span>
+                            <span class="lesson-name">Forensic Analysis</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                        <a href="#lesson8" class="lesson-item" data-lesson="8">
+                            <span class="lesson-number">3.2</span>
+                            <span class="lesson-name">Detection Tools</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                        <a href="#lesson9" class="lesson-item" data-lesson="9">
+                            <span class="lesson-number">3.3</span>
+                            <span class="lesson-name">Case Studies</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <div class="progress-summary">
+                    <p>Progress: <strong>1/9</strong> lessons</p>
+                    <div class="mini-progress">
+                        <div class="mini-progress-fill" style="width: 11%"></div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Progress Bar -->
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+
+            <!-- Lesson Header -->
+            <header class="lesson-header">
+                <div class="breadcrumb">
+                    <span>Foundations of Deepfakes</span>
+                    <span class="separator">/</span>
+                    <span>Module 1: Introduction</span>
+                    <span class="separator">/</span>
+                    <span id="lessonBreadcrumb">What are Deepfakes?</span>
+                </div>
+                <h1 id="lessonTitle">What are Deepfakes?</h1>
+                <div class="lesson-meta">
+                    <span class="lesson-time">📚 15 minutes</span>
+                    <span class="lesson-difficulty">Beginner</span>
+                </div>
+            </header>
+
+            <!-- Lesson Content -->
+            <article class="lesson-content">
+                <!-- Lesson 1 Content -->
+                <section id="lesson-1" class="lesson-section active">
+                    <h2>Understanding Deepfakes</h2>
+                    
+                    <p>
+                        Deepfakes are synthetic media created using artificial intelligence and machine learning techniques 
+                        to replace the likeness of one person with that of another in video or audio. The term "deepfake" 
+                        combines "deep learning" and "fake," reflecting the technology used to create them.
+                    </p>
+
+                    <div class="info-box">
+                        <h3>📌 Key Definition</h3>
+                        <p>
+                            A deepfake is a piece of media that has been synthetically created or manipulated using deep learning 
+                            techniques, typically a convolutional neural network, to convincingly replace a person with a digital 
+                            replica in video or audio content.
+                        </p>
+                    </div>
+
+                    <h3>How Deepfakes Are Created</h3>
+                    <p>
+                        The creation of deepfakes involves several key steps:
+                    </p>
+
+                    <ol>
+                        <li><strong>Data Collection:</strong> Large datasets of images or videos of the target person are gathered.</li>
+                        <li><strong>Face Detection:</strong> The system identifies and isolates faces from the collected media.</li>
+                        <li><strong>Feature Extraction:</strong> Neural networks analyze facial features and expressions.</li>
+                        <li><strong>Training:</strong> A generative model (often a GAN - Generative Adversarial Network) is trained to learn the mapping between faces.</li>
+                        <li><strong>Generation:</strong> The trained model creates realistic facial representations in new videos.</li>
+                    </ol>
+
+                    <h3>Common Applications</h3>
+                    <ul>
+                        <li>Entertainment and film production</li>
+                        <li>Educational content creation</li>
+                        <li>Video game character animation</li>
+                        <li>Accessibility - creating sign language interpretations</li>
+                        <li>Medical training and simulations</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        <h3>⚠️ Misuse Concerns</h3>
+                        <p>
+                            Despite legitimate uses, deepfakes have raised significant concerns about:
+                        </p>
+                        <ul>
+                            <li>Non-consensual intimate media</li>
+                            <li>Political manipulation and misinformation</li>
+                            <li>Fraud and identity theft</li>
+                            <li>Defamation and harassment</li>
+                        </ul>
+                    </div>
+
+                    <h3>Why Detection Matters</h3>
+                    <p>
+                        As deepfake technology becomes more sophisticated, the ability to detect manipulated media becomes 
+                        increasingly important. In this course, we'll learn various techniques to identify deepfakes and 
+                        understand the tools and methods used to create them. This knowledge is crucial for:
+                    </p>
+
+                    <ul>
+                        <li>Protecting against misinformation</li>
+                        <li>Verifying the authenticity of media</li>
+                        <li>Understanding AI capabilities and limitations</li>
+                        <li>Making informed decisions about digital content</li>
+                    </ul>
+
+                    <div class="key-takeaways">
+                        <h3>✓ Key Takeaways</h3>
+                        <ul>
+                            <li>Deepfakes are AI-generated synthetic media that can convincingly replace people in videos or audio</li>
+                            <li>They are created using deep learning techniques, particularly GANs</li>
+                            <li>While they have legitimate uses, they pose significant risks when misused</li>
+                            <li>Detection and verification of authentic media are becoming increasingly important</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Lesson 2 Content (Hidden) -->
+                <section id="lesson-2" class="lesson-section">
+                    <h2>History of Deepfakes</h2>
+                    <p>This lesson covers the evolution of deepfake technology...</p>
+                </section>
+
+                <!-- Lesson 3 Content (Hidden) -->
+                <section id="lesson-3" class="lesson-section">
+                    <h2>Technology Behind It</h2>
+                    <p>This lesson explores the technological foundations...</p>
+                </section>
+
+                <!-- Lesson 4 Content (Hidden) -->
+                <section id="lesson-4" class="lesson-section">
+                    <h2>Visual Artifacts</h2>
+                    <p>This lesson covers visual signs of deepfakes...</p>
+                </section>
+
+                <!-- Lesson 5 Content (Hidden) -->
+                <section id="lesson-5" class="lesson-section">
+                    <h2>Audio Inconsistencies</h2>
+                    <p>This lesson explores audio analysis techniques...</p>
+                </section>
+
+                <!-- Lesson 6 Content (Hidden) -->
+                <section id="lesson-6" class="lesson-section">
+                    <h2>Behavioral Clues</h2>
+                    <p>This lesson examines behavioral detection methods...</p>
+                </section>
+
+                <!-- Lesson 7 Content (Hidden) -->
+                <section id="lesson-7" class="lesson-section">
+                    <h2>Forensic Analysis</h2>
+                    <p>This lesson covers forensic analysis techniques...</p>
+                </section>
+
+                <!-- Lesson 8 Content (Hidden) -->
+                <section id="lesson-8" class="lesson-section">
+                    <h2>Detection Tools</h2>
+                    <p>This lesson introduces detection tools...</p>
+                </section>
+
+                <!-- Lesson 9 Content (Hidden) -->
+                <section id="lesson-9" class="lesson-section">
+                    <h2>Case Studies</h2>
+                    <p>This lesson examines real-world case studies...</p>
+                </section>
+            </article>
+
+            <!-- Lesson Navigation -->
+            <div class="lesson-footer">
+                <button class="btn btn-secondary" id="prevBtn" onclick="previousLesson()">
+                    ← Previous Lesson
+                </button>
+
+                <button class="btn btn-primary" id="completeBtn" onclick="markAsCompleted()">
+                    ✓ Mark as Completed
+                </button>
+
+                <button class="btn btn-secondary" id="nextBtn" onclick="nextLesson()">
+                    Next Lesson →
+                </button>
+            </div>
+
+            <!-- Quiz Section -->
+            <section class="quiz-section">
+                <h2>Quick Check</h2>
+                <div class="quiz-question">
+                    <p><strong>What does "deepfake" stand for?</strong></p>
+                    <div class="quiz-options">
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="a">
+                            <span>Deep Learning Fake</span>
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="b">
+                            <span>Digital Fake</span>
+                        </label>
+                        <label class="quiz-option">
+                            <input type="radio" name="q1" value="c">
+                            <span>Desktop Fake</span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="lesson-script.js"></script>
+</body>
+</html>
