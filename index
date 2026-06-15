@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthLens - DeepFake Detection & AI Education Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🔍</span>
+                <span class="logo-text">TruthLens</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#modules">Modules</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Detect Truth, Expose Deception</h1>
+                <p class="hero-subtitle">Master the art of DeepFake Detection with AI-powered education and cutting-edge technology</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Get Started</button>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-visual">
+                    <div class="circle circle-1"></div>
+                    <div class="circle circle-2"></div>
+                    <div class="circle circle-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About TruthLens</h2>
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>What is TruthLens?</h3>
+                    <p>
+                        TruthLens is a comprehensive learning platform dedicated to educating individuals about deepfakes, 
+                        synthetic media, and AI-generated content. In an era of misinformation, we empower learners with the 
+                        knowledge and skills to identify manipulated media and verify authentic content.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>10K+</h4>
+                            <p>Active Learners</p>
+                        </div>
+                        <div class="stat">
+                            <h4>50+</h4>
+                            <p>Expert Courses</p>
+                        </div>
+                        <div class="stat">
+                            <h4>95%</h4>
+                            <p>Success Rate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span class="placeholder-icon">🤖</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose TruthLens?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📹</div>
+                    <h3>Real-world Analysis</h3>
+                    <p>Learn to analyze actual deepfake videos and synthetic media with interactive tools and real case studies.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>AI Education</h3>
+                    <p>Understand machine learning algorithms, GANs, and neural networks that power synthetic media creation.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Expert Instructors</h3>
+                    <p>Learn from industry experts with years of experience in AI security, forensics, and digital authentication.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3>Detection Tools</h3>
+                    <p>Access state-of-the-art detection algorithms and techniques to identify manipulated content efficiently.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Analytics Dashboard</h3>
+                    <p>Track your learning progress with detailed analytics and personalized recommendations for improvement.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Certifications</h3>
+                    <p>Earn recognized certifications upon course completion to validate your expertise in deepfake detection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Modules Section -->
+    <section id="modules" class="modules">
+        <div class="container">
+            <h2 class="section-title">Learning Modules</h2>
+            <div class="modules-grid">
+                <div class="module-card">
+                    <div class="module-header">
+                        <span class="module-level">Beginner</span>
+                        <span class="module-duration">4 weeks</span>
+                    </div>
+                    <h3>Foundations of Deepfakes</h3>
+                    <p>Introduction to deepfakes, what they are, and why they matter in today's digital landscape.</p>
+                    <div class="module-lessons">
+                        <p><strong>Topics:</strong></p>
+                        <ul>
+                            <li>What are Deepfakes?</li>
+                            <li>Historical Examples</li>
+                            <li>Impact on Society</li>
+                            <li>Regulatory Framework</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-outline">Enroll Now</button>
+                </div>
+
+                <div class="module-card featured">
+                    <div class="module-header">
+                        <span class="module-level">Intermediate</span>
+                        <span class="module-duration">8 weeks</span>
+                    </div>
+                    <h3>Detection Techniques</h3>
+                    <p>Master practical techniques and tools for identifying deepfakes and synthetic media.</p>
+                    <div class="module-lessons">
+                        <p><strong>Topics:</strong></p>
+                        <ul>
+                            <li>Forensic Analysis</li>
+                            <li>Detection Algorithms</li>
+                            <li>Behavioral Analysis</li>
+                            <li>Hands-on Projects</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-primary">Enroll Now</button>
+                </div>
+
+                <div class="module-card">
+                    <div class="module-header">
+                        <span class="module-level">Advanced</span>
+                        <span class="module-duration">12 weeks</span>
+                    </div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Deep dive into AI technologies: GANs, neural networks, and advanced detection systems.</p>
+                    <div class="module-lessons">
+                        <p><strong>Topics:</strong></p>
+                        <ul>
+                            <li>GANs Architecture</li>
+                            <li>Neural Networks</li>
+                            <li>Building Detectors</li>
+                            <li>Research & Development</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-outline">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Become a Deepfake Detection Expert?</h2>
+            <p>Join thousands of learners protecting the integrity of digital media</p>
+            <button class="btn btn-primary btn-large">Start Your Journey Today</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About TruthLens</h4>
+                    <p>A comprehensive platform for deepfake detection and AI education.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#modules">Modules</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TruthLens. All rights reserved. | Detecting Truth, Exposing Deception</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
