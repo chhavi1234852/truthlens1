@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthLens - Module 9 Lesson 3</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <span class="logo-icon">🔍</span>
+                <span class="logo-text">TruthLens</span>
+            </div>
+            <button class="sidebar-toggle" id="sidebarToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2>Module 9</h2>
+                <p class="course-duration">8 weeks</p>
+            </div>
+
+            <div class="lessons-list">
+                <div class="lesson-module">
+                    <h3 class="module-title">Module 9 Lessons</h3>
+                    <div class="lessons">
+                        <a href="lesson1.html" class="lesson-item" data-lesson="1">
+                            <span class="lesson-number">9.1</span>
+                            <span class="lesson-name">Lesson 1</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                        <a href="lesson2.html" class="lesson-item" data-lesson="2">
+                            <span class="lesson-number">9.2</span>
+                            <span class="lesson-name">Lesson 2</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                        <a href="lesson3.html" class="lesson-item active" data-lesson="3">
+                            <span class="lesson-number">9.3</span>
+                            <span class="lesson-name">Lesson 3</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                        <a href="lesson4.html" class="lesson-item" data-lesson="4">
+                            <span class="lesson-number">9.4</span>
+                            <span class="lesson-name">Lesson 4</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                        <a href="lesson5.html" class="lesson-item" data-lesson="5">
+                            <span class="lesson-number">9.5</span>
+                            <span class="lesson-name">Lesson 5</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                        <a href="lesson6.html" class="lesson-item" data-lesson="6">
+                            <span class="lesson-number">9.6</span>
+                            <span class="lesson-name">Lesson 6</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                        <a href="lesson7.html" class="lesson-item" data-lesson="7">
+                            <span class="lesson-number">9.7</span>
+                            <span class="lesson-name">Lesson 7</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                        <a href="lesson8.html" class="lesson-item" data-lesson="8">
+                            <span class="lesson-number">9.8</span>
+                            <span class="lesson-name">Lesson 8</span>
+                            <span class="lesson-status">○</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <div class="progress-summary">
+                    <p>Progress: <strong id="lessonsCompleted">0/8</strong> lessons</p>
+                    <div class="mini-progress">
+                        <div class="mini-progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content" id="mainContent">
+            <!-- Progress Bar -->
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+
+            <!-- Lesson Header -->
+            <header class="lesson-header">
+                <div class="breadcrumb">
+                    <span><a href="../modules/module9.html">Module 9</a></span>
+                    <span class="separator">/</span>
+                    <span>Lesson 3</span>
+                </div>
+                <h1>Lesson 3</h1>
+                <div class="lesson-meta">
+                    <span class="lesson-time">📚 15 minutes</span>
+                    <span class="lesson-difficulty">Beginner</span>
+                </div>
+            </header>
+
+            <!-- Lesson Content -->
+            <article class="lesson-content">
+                <!-- ADD YOUR CONTENT HERE -->
+                <section class="lesson-section active">
+                    <h2>Lesson 3</h2>
+                    
+                    <p>
+                        <!-- Your content goes here -->
+                    </p>
+
+                    <div class="info-box">
+                        <h3>📌 Key Points</h3>
+                        <p>
+                            <!-- Add key points here -->
+                        </p>
+                    </div>
+
+                    <h3>Topics Covered</h3>
+                    <ul>
+                        <li>Topic 1</li>
+                        <li>Topic 2</li>
+                        <li>Topic 3</li>
+                    </ul>
+
+                    <div class="key-takeaways">
+                        <h3>✓ Key Takeaways</h3>
+                        <ul>
+                            <li>Point 1</li>
+                            <li>Point 2</li>
+                            <li>Point 3</li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+
+            <!-- Lesson Navigation -->
+            <div class="lesson-footer">
+                <button class="btn btn-secondary" id="prevBtn" onclick="previousLesson()">
+                    ← Previous Lesson
+                </button>
+
+                <button class="btn btn-primary" id="completeBtn" onclick="markAsCompleted()">
+                    ✓ Mark as Completed
+                </button>
+
+                <button class="btn btn-secondary" id="nextBtn" onclick="nextLesson()">
+                    Next Lesson →
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/progress.js"></script>
+</body>
+</html>
